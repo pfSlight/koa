@@ -1,0 +1,202 @@
+module.exports = (config => {
+	return config.reduce((copy, name) => {
+    const obj = require(`./${name}`)
+    const newArr = Object.keys(obj).reduce((total, each) => {
+      let item = { path: `/api/${name}/${each}`, method: obj[each].method, action: each, service: name }
+      total.push(item)
+      return total
+    }, [])
+    copy = copy.concat(newArr)
+	  return copy
+	}, [])
+})([
+  'admin',
+  'user',
+  'order',
+  'shop',
+  'ticket',
+  'type',
+])
+
+var copy = [
+  {
+    path: '/api/admin/list',
+    method: 'get',
+    action: 'list',
+    service: 'admin'
+  },
+  {
+    path: '/api/admin/add',
+    method: 'post',
+    action: 'add',
+    service: 'admin'
+  },
+  {
+    path: '/api/admin/update',
+    method: 'post',
+    action: 'update',
+    service: 'admin'
+  },
+  {
+    path: '/api/admin/del',
+    method: 'post',
+    action: 'del',
+    service: 'admin'
+  },
+  {
+    path: '/api/admin/login',
+    method: 'post',
+    action: 'login',
+    service: 'admin'
+  },
+  {
+    path: '/api/user/list',
+    method: 'get',
+    action: 'list',
+    service: 'user'
+  },
+  {
+    path: '/api/user/add',
+    method: 'post',
+    action: 'add',
+    service: 'user'
+  },
+  {
+    path: '/api/user/update',
+    method: 'post',
+    action: 'update',
+    service: 'user'
+  },
+  {
+    path: '/api/user/del',
+    method: 'post',
+    action: 'del',
+    service: 'user'
+  },
+  {
+    path: '/api/order/list',
+    method: 'get',
+    action: 'list',
+    service: 'order'
+  },
+  {
+    path: '/api/order/add',
+    method: 'post',
+    action: 'add',
+    service: 'order'
+  },
+  {
+    path: '/api/order/update',
+    method: 'post',
+    action: 'update',
+    service: 'order'
+  },
+  {
+    path: '/api/order/del',
+    method: 'post',
+    action: 'del',
+    service: 'order'
+  },
+  {
+    path: '/api/order/listu',
+    method: 'post',
+    action: 'listu',
+    service: 'order'
+  },
+  {
+    path: '/api/order/listb',
+    method: 'post',
+    action: 'listb',
+    service: 'order'
+  },
+  {
+    path: '/api/shop/list',
+    method: 'get',
+    action: 'list',
+    service: 'shop'
+  },
+  {
+    path: '/api/shop/add',
+    method: 'post',
+    action: 'add',
+    service: 'shop'
+  },
+  {
+    path: '/api/shop/update',
+    method: 'post',
+    action: 'update',
+    service: 'shop'
+  },
+  {
+    path: '/api/shop/del',
+    method: 'post',
+    action: 'del',
+    service: 'shop'
+  },
+  {
+    path: '/api/shop/one',
+    method: 'post',
+    action: 'one',
+    service: 'shop'
+  },
+  {
+    path: '/api/ticket/list',
+    method: 'get',
+    action: 'list',
+    service: 'ticket'
+  },
+  {
+    path: '/api/ticket/add',
+    method: 'post',
+    action: 'add',
+    service: 'ticket'
+  },
+  {
+    path: '/api/ticket/update',
+    method: 'post',
+    action: 'update',
+    service: 'ticket'
+  },
+  {
+    path: '/api/ticket/del',
+    method: 'post',
+    action: 'del',
+    service: 'ticket'
+  },
+  {
+    path: '/api/ticket/one',
+    method: 'post',
+    action: 'one',
+    service: 'ticket'
+  },
+  {
+    path: '/api/ticket/lista',
+    method: 'get',
+    action: 'lista',
+    service: 'ticket'
+  },
+  {
+    path: '/api/type/list',
+    method: 'get',
+    action: 'list',
+    service: 'type'
+  },
+  {
+    path: '/api/type/add',
+    method: 'post',
+    action: 'add',
+    service: 'type'
+  },
+  {
+    path: '/api/type/update',
+    method: 'post',
+    action: 'update',
+    service: 'type'
+  },
+  {
+    path: '/api/type/del',
+    method: 'post',
+    action: 'del',
+    service: 'type'
+  }
+]

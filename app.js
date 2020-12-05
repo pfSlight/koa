@@ -5,7 +5,7 @@ const session = require('koa-session-minimal')
 const MysqlStore = require('koa-mysql-session')
 const config = require('./config')
 const koaStatic = require('koa-static')
-const routers = require('./routes/index')
+const routers = require('./routers/index')
 
 // 创建一个Koa对象表示web app本身
 const app = new Koa()
@@ -50,8 +50,8 @@ app.use(koaStatic(
 app.use(bodyParser())
 
 // 使用新建的路由文件
-// app.use(routers.routes())
-//    .use(routers.allpwedMethods())
+app.use(routers.routes())
+   .use(routers.allowedMethods())
 
 // 监听在3000
 app.listen(config.port)
