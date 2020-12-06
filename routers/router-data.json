@@ -1,0 +1,652 @@
+{
+	"opts": {},
+	"methods": [
+		"HEAD",
+		"OPTIONS",
+		"GET",
+		"PUT",
+		"PATCH",
+		"POST",
+		"DELETE"
+	],
+	"params": {},
+	"stack": [
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"HEAD",
+				"GET"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/admin/list",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/admin/add",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/admin/update",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/admin/del",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/admin/login",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"HEAD",
+				"GET"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/user/list",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/user/add",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/user/update",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/user/del",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"HEAD",
+				"GET"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/order/list",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/order/add",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/order/update",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/order/del",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/order/listu",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/order/listb",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"HEAD",
+				"GET"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/shop/list",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/shop/add",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/shop/update",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/shop/del",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/shop/one",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"HEAD",
+				"GET"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/ticket/list",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/ticket/add",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/ticket/update",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/ticket/del",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/ticket/one",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"HEAD",
+				"GET"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/ticket/lista",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"HEAD",
+				"GET"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/type/list",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/type/add",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/type/update",
+			"regexp": {
+				"keys": []
+			}
+		},
+		{
+			"opts": {
+				"end": true,
+				"name": null,
+				"sensitive": false,
+				"strict": false,
+				"prefix": ""
+			},
+			"name": null,
+			"methods": [
+				"POST"
+			],
+			"paramNames": [],
+			"stack": [
+				null
+			],
+			"path": "/api/type/del",
+			"regexp": {
+				"keys": []
+			}
+		}
+	]
+}
