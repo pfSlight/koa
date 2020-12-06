@@ -1,13 +1,19 @@
+// 实例化路由
 const router = require('koa-router')()
 const routes = require('../routes')
 const fileHelper = require('../utils/fileHelper')
 const path = require('path')
 
-// 配置最终的路由，形式为
-// router.get(url, service.action)
+/**
+ * 配置最终的路由，形式为
+ * router.get(url, service.action)
+ * router.get('/', async (ctx, next) => {
+ *    ctx.response.body = '<h1>Index</h1>';
+ * });
+ */
 routes.forEach(item => {
   const service = require(`../services/${item.service}`)
-  router[item.method](item.path, service[item.action])
+  router[item.method](item.path, service[item.action]) // 见注释
 })
 
 const routerPath = path.join(__dirname,'router-data.json')

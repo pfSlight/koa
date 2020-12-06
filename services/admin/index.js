@@ -22,10 +22,10 @@ const login = async ctx => {
   ctx.body = res
 }
 
-console.log('---------------------------------',{
+console.log('admin begin ---------------------------------',{
   ...m,
   login,
-}, '---------------------------------')
+}, 'admin end ---------------------------------')
 
 module.exports = {
   ...m,
